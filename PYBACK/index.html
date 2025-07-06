@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Image Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
+    <h1 class="text-4xl font-bold text-blue-600 mb-8">Medical Image Analysis</h1>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 w-full max-w-6xl">
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+            <h2 class="text-xl font-semibold mb-4">Medical Report</h2>
+            <input type="file" id="medicalImage" class="mb-4 w-full border p-2 rounded-lg">
+            <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-700 transition" onclick="analyzeImage('medical_report', 'medicalImage')">Analyze</button>
+            <p id="medicalResult" class="mt-4 text-gray-700"></p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+            <h2 class="text-xl font-semibold mb-4">Chest X-ray</h2>
+            <input type="file" id="chestImage" class="mb-4 w-full border p-2 rounded-lg">
+            <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-700 transition" onclick="analyzeImage('chest', 'chestImage')">Analyze</button>
+            <p id="chestResult" class="mt-4 text-gray-700"></p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+            <h2 class="text-xl font-semibold mb-4">Brain Tumor</h2>
+            <input type="file" id="brainImage" class="mb-4 w-full border p-2 rounded-lg">
+            <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-700 transition" onclick="analyzeImage('brain', 'brainImage')">Analyze</button>
+            <p id="brainResult" class="mt-4 text-gray-700"></p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+            <h2 class="text-xl font-semibold mb-4">Skin Disease</h2>
+            <input type="file" id="skinImage" class="mb-4 w-full border p-2 rounded-lg">
+            <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-700 transition" onclick="analyzeImage('skin', 'skinImage')">Analyze</button>
+            <p id="skinResult" class="mt-4 text-gray-700"></p>
+        </div>
+    </div>
+    <script>
+        function analyzeImage(endpoint, inputId) {
+            const fileInput = document.getElementById(inputId);
+            if (fileInput.files.length === 0) {
+                alert("Please select an image.");
+                return;
+            }
+            const formData = new FormData();
+            formData.append("image", fileInput.files[0]);
+            
+            fetch(`/${endpoint}`, {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById(inputId.replace("Image", "Result")).innerText = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("An error occurred while processing the image.");
+            });
+        }
+    </script>
+</body>
+</html>

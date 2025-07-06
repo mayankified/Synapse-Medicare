@@ -1,0 +1,57 @@
+{
+    "PM-JAY": {
+      "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
+      "short_description": "A health insurance scheme providing coverage up to ₹5 lakh per family per year.",
+      "long_description": "Launched in 2018, Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is one of the largest government-backed health insurance schemes in the world. It aims to provide financial protection for over 40% of India's economically weaker population. Beneficiaries are selected based on the Socio-Economic Caste Census (SECC) data.\n\nUnder this scheme, families receive cashless treatment at empaneled public and private hospitals for secondary and tertiary care procedures. It covers expenses related to hospitalization, pre and post-hospitalization costs, and follow-up treatments. The scheme is designed to reduce the financial burden of healthcare and ensure that quality medical facilities are accessible to the underprivileged sections of society.",
+      "website": "https://pmjay.gov.in/"
+    },
+    "RSBY": {
+      "name": "Rashtriya Swasthya Bima Yojana",
+      "short_description": "Health insurance for BPL families and unorganized sector workers.",
+      "long_description": "Initiated by the Ministry of Labour and Employment, Rashtriya Swasthya Bima Yojana (RSBY) is specifically designed for Below Poverty Line (BPL) families and unorganized sector workers. The scheme ensures affordable healthcare access by offering a biometric-enabled smart card to beneficiaries.\n\nThe smart card allows cashless hospitalization of up to ₹30,000 annually per family at empaneled hospitals. It covers expenses related to hospitalization, medical treatments, and transportation. This scheme reduces out-of-pocket healthcare expenses for the economically weaker sections and promotes timely access to essential medical services.",
+      "website": "https://rsby.gov.in/"
+    },
+    "CGHS": {
+      "name": "Central Government Health Scheme",
+      "short_description": "Comprehensive healthcare for central government employees and pensioners.",
+      "long_description": "The Central Government Health Scheme (CGHS) was introduced in 1954 to provide comprehensive healthcare services to central government employees, pensioners, and their dependents residing in designated cities. The scheme integrates both allopathic and alternative medicine systems, including Ayurveda, Yoga, Unani, Siddha, and Homeopathy.\n\nCGHS covers outpatient services, hospitalization, specialist consultations, and diagnostic tests at government-run wellness centers and empaneled private hospitals. It is a structured healthcare program ensuring quality medical care for government employees and their families, reducing their financial burden on healthcare expenses.",
+      "website": "https://cghs.gov.in/"
+    },
+    "ESIS": {
+      "name": "Employees' State Insurance Scheme",
+      "short_description": "Medical and financial benefits for organized sector employees.",
+      "long_description": "Managed by the Employees' State Insurance Corporation (ESIC), ESIS is designed for employees working in registered organizations. It offers full medical coverage from the first day of employment, ensuring that workers and their dependents receive necessary healthcare services.\n\nESIS benefits include cash compensation during sickness, maternity leave, and disability due to occupational hazards. The scheme also covers hospitalization expenses, specialist treatments, and funeral costs in case of an insured worker's demise. The goal of ESIS is to enhance social security for workers and provide them with financial protection against medical emergencies.",
+      "website": "https://www.esic.nic.in/"
+    },
+    "PMSBY": {
+      "name": "Pradhan Mantri Suraksha Bima Yojana",
+      "short_description": "Accident insurance scheme for individuals aged 18-70 years.",
+      "long_description": "The Pradhan Mantri Suraksha Bima Yojana (PMSBY) is an affordable insurance scheme that provides coverage for accidental death and disability. Available for individuals aged 18 to 70 years, the scheme can be availed by paying an annual premium.\n\nIn case of accidental death or full disability, the nominee receives a sum of ₹2 lakhs, while partial disability coverage is ₹1 lakh. The policy aims to promote financial security for families affected by unforeseen accidents and encourage individuals to opt for affordable insurance coverage.",
+      "website": "https://www.psby.gov.in/"
+    },
+    "PMJJBY": {
+      "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+      "short_description": "Life insurance scheme covering individuals aged 18-50 years.",
+      "long_description": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is a life insurance scheme ensuring financial protection for policyholders' families in case of the policyholder's death. Individuals between 18 and 50 years of age can enroll by paying an annual premium.\n\nThe scheme provides a life cover of ₹2 lakhs, payable to the nominee in case of death due to any cause. This initiative is aimed at encouraging life insurance adoption among low-income individuals and providing a safety net for their families.",
+      "website": "https://www.pmjby.gov.in/"
+    },
+    "AABY": {
+      "name": "Aam Aadmi Bima Yojana",
+      "short_description": "Insurance for rural landless households.",
+      "long_description": "Aam Aadmi Bima Yojana (AABY) is a social security initiative catering to rural landless families. It provides life insurance benefits for one earning member per family. In the event of natural death, the beneficiary's family receives ₹30,000, while accidental death or total permanent disability is covered up to ₹75,000.\n\nAdditionally, AABY includes a scholarship program for the children of insured individuals, ensuring that financial constraints do not hinder their education.",
+      "website": "https://www.swasthya.nic.in/"
+    },
+    "UHIS": {
+      "name": "Universal Health Insurance Scheme",
+      "short_description": "Health coverage for poor families below the poverty line.",
+      "long_description": "The Universal Health Insurance Scheme (UHIS) is designed to improve healthcare access for families living below the poverty line. The scheme provides coverage for hospitalization expenses up to ₹30,000 per family per year.\n\nAdditionally, the scheme includes accidental death coverage of ₹25,000 for the earning head of the family and compensation for income loss due to prolonged illness. UHIS aims to protect economically weaker families from financial hardships caused by medical emergencies.",
+      "website": "https://www.nhp.gov.in/"
+    },
+    "SCHIS": {
+      "name": "Senior Citizen Health Insurance Scheme",
+      "short_description": "Healthcare coverage for senior citizens aged 60+.",
+      "long_description": "The Senior Citizen Health Insurance Scheme (SCHIS) is specifically designed to cater to the healthcare needs of citizens aged 60 years and above. The scheme provides comprehensive coverage, including pre-existing diseases, daycare procedures, and domiciliary hospitalization.\n\nSCHIS offers affordable premium rates and ensures that elderly individuals have access to quality healthcare without financial strain. This initiative reflects the government's commitment to supporting senior citizens' well-being and healthcare needs.",
+      "website": "https://www.schemes.gov.in/"
+    }
+  }
+  
