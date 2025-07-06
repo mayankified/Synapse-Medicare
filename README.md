@@ -1,5 +1,5 @@
 ﻿# Synapse-Medicare 🏥
-*A winning project for the Parul AI Hackathon.*
+*An Impactful Healthcare Project for the Parul AI Hackathon 2025.*
 
 ---
 
@@ -14,7 +14,7 @@
 
 ##  flowchart
 
-![Synapse-Medicare Flowchart](images/image.png)
+![Synapse-Medicare Flowchart](https://github.com/mayankified/Synapse-Medicare/blob/main/images/image.png)
 
 ---
 
