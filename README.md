@@ -61,7 +61,7 @@ This project was brought to life by:
 -   [RICHA SINGH](https://github.com/richasingh-16)
 -   [AASHISH GUPTA](https://github.com/AashishG01)
 -   [MAYANK](https://github.com/mayankified)
--   [Saurabh](https://github.com/Saurabh9308)
+-   [SAURABH](https://github.com/Saurabh9308)
 
 ---
 
@@ -73,3 +73,4 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 
 ⭐ **If you find this project useful, don't forget to star the repository!**
+
